@@ -47,11 +47,11 @@ If your code works, and we like it. We will make an appointment for an interview
 
 
 ---
-## Challenge One: Past Dates Decorator ##
-![screenshot](./dateDecoratorSampleUI.png)
+## Challenge One: ??? ##
+
 
 ---
-## Challenge Two: String Calculator (Simplified) ##
+## Challenge Two: ??? ##
 See original kata description here [String Calculator Kata @ osherove.com](http://osherove.com/tdd-kata-1/ "String Calculator Kata").
 
 ### Before you start: ###
