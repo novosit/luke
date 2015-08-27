@@ -27,7 +27,9 @@ Be aware, some assessments are subjective, such as our beliefs about good softwa
 
 - **Your solution must work:** Please do not submit solutions not doing what was asked.
 - **.NET solution:** Must run using only MSBuild tool, use .NET Framework 4 or any higher version
+  - Put it inside `/dot_net` directory
 - **JavaScript Solution:** Must run using the following command `node run.js`, will use node v12 or higher
+  - Put it inside `/js` directory
 - **OOP Principles:** We use Object Oriented technologies, we are looking for people with solid knowledge about OO principles. To name a few, we like you to know about:
   - S.O.L.I.D., 
   - Loosely coupled components, 
