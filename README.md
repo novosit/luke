@@ -13,9 +13,16 @@ Here you have two programming challenges, you need to solve one using C# and the
 
 For each challenge we will include some additional details for the HTML GUI component.
 
+Do use TDD for both challenges and include your tests in the final solution.
+
+***How to deliver the solution?***
+Just fork this repo and submit your solution as a pull request.
+
+---
 ## Challenge One: Past Dates Decorator ##
 ![screenshot](./dateDecoratorSampleUI.png)
 
+---
 ## Challenge Two: String Calculator (Simplified) ##
 See original kata description here [String Calculator Kata @ osherove.com](http://osherove.com/tdd-kata-1/ "String Calculator Kata").
 
