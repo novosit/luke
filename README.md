@@ -58,7 +58,7 @@ If your code works, and we like it. We will make an appointment for an interview
 
 
 ---
-## Challenge Two: ??? ##
+## Challenge Two: String Calculator Kata (simplified) ##
 See original kata description here [String Calculator Kata @ osherove.com](http://osherove.com/tdd-kata-1/ "String Calculator Kata").
 
 ### Before you start: ###
@@ -66,7 +66,7 @@ See original kata description here [String Calculator Kata @ osherove.com](http:
 - Do one task at a time. The trick is to learn to work incrementally
 - Make sure you only test for correct inputs. there is no need to test for invalid inputs for this kata
 
-### String Calculator ###
+### Description ###
 - *Create a simple String calculator with a method int `Add(string numbers)`*
   - The method can take 0, 1 or 2 numbers, and will return their sum (for an empty string it will return `0`) for example `“”` or `“1”` or `“1,2”`
   - Start with the simplest test case of an empty string and move to 1 and two numbers
@@ -84,9 +84,12 @@ See original kata description here [String Calculator Kata @ osherove.com](http:
   - if there are multiple negatives, show all of them in the exception message
   - message format will be `“negatives not allowed {num1 num2 ...}”`, where `{num1 num2 ...}` represents the list of negatives found
 
+### Layout if opt to do the HTML UI ###
+![May The Force Be With You](./string_calc_web.png)
+
 ---
 
 ## Both problems are to easy for you? ##
 Try with these ones on the [obi-wan profile](https://github.com/novosit/obi-wan "obi-wan profile").
 
-![screenshot](./may-the-force-be-with-you.jpg)
+![May The Force Be With You](./may-the-force-be-with-you.jpg)
