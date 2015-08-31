@@ -54,8 +54,151 @@ If your code works, and we like it. We will make an appointment for an interview
 
 
 ---
-## Challenge One: ??? ##
+## Challenge One: Code Generator ##
+### Before you start: ###
+- Try not to read ahead
+- Remember to use TDD
 
+### Description ###
+You need to implement a simple code generator API. The input will be a JSON document describing simple data structures. The output is the corresponding C# class definition. The resulting class MUST COMPILE using the .NET Framework 4.5 or higher. The API should handle the following:
+
+- *About type:* Name space, name, visibility, mutability, and description using the following properties:
+  - `"name"`: Represents the type's name. No matter the case used to describe it, the resulting case used should respect C#'s conventions. i.e: `employee` must result in a class named `Employee`.
+  - `"visibility"`: valid values are `"public"`, and `"internal"`. The default is `"public"`.
+  - `"mutable"`: boolean property `true` or `false`. Indicates if the entire data structure will mutable or not. The default is `false`. A class considered immutable (`"mutable": false`), can not allow property values to change. You should crate the appropriate constructor(s) to give initial values to all properties.
+    - `"mutable": true`: A mutable class have read/write properties, but one or more properties could be declared as immutable, to those must be read only and assigned at construction time.
+  - `"description"`: Description is an optional string used to generate XML-Doc for the class.
+  - `"namespace"`: Used to define the resulting class `"namespace"`. 
+- *About type's properties (data elements)*: Data elements share some attributes with types, and have unique ones as well. The full list is: name, visibility, mutability, type, cardinality, and description.
+  - `"name"`: Property name, note that if you have to declare any hidden data element in order to ensure the proper mutability strategy that is up to you. The name represents the one used to declare properties in the public interface of the class, such as: `public int Age { get; set; }`, for `"age"`.
+  - `"type"`: one of `"integer"`, `"float"`, `"double"`, `"string"`, `"datetime"`, `"boolean"`.
+  - `"visibility"`: valid values are `"public"`, `"protected"`, `"internal"`, and `"private"`. The default is `"public"`.
+  - `"mutability"`: Only allowed if the the container (type) is mutable (`"mutable": true`). Used to allow immutable properties within mutable classes. A `"mutable": true` property within a `"mutable": true` type has no effect, the result will be the same as if the mutable attribute was not specified for the property.
+  - `"description"`: Description is an optional string used to generate XML-Doc for the property.
+  - `"cardinality"`: Used to define collection-type properties. Defines a range of occurrences for the given type. For simplicity we will only manage two kind of cardinality: `"one"` (default), and `"many"` (unbounded collection). Translate `"many"` as `System.Collections.Generic.IList<T>`.
+
+### Examples ###
+- **A)** Input (JSON document): Immutable, and public by default.
+
+		{
+			"namespace": "Company.Accounting",
+			"name": "Employee",
+			"description": "Represents an employee",
+			"properties": [
+				{
+					"name": "id",
+					"type": "string",
+					"description": "Employee's unique Identifier"
+				},
+				{
+					"name": "id",
+					"type": "string"
+				}
+			]
+		}
+- **A)** Output (C# class file):
+
+		using System;
+
+		namespace Company.Accounting
+		{
+		    /// <summary>
+		    /// Represents an employee
+		    /// </summary>
+		    public class Employee
+		    {
+		        private readonly String id;
+		        private readonly String name;
+	
+				/// <summary>
+		        /// Employee's unique Identifier
+		        /// </summary>
+		        public String Id
+		        {
+		            get { return name; }
+		        }
+		
+		        public String Name
+		        {
+		            get { return id; }
+		        }
+		
+		        public Employee(String id, String name)
+		        {
+		            this.id = id;
+		            this.name = name;
+		        }
+		    }
+		}
+
+- **B)** Input (JSON document): Mutable, and public.
+
+		{
+			"namespace": "Company.Accounting",
+			"name": "Employee",
+			"description": "Represents an employee",
+			"mutable": true,
+			"properties": [ ... ]
+		}
+- **B)** Output (C# class file):
+
+		using System;
+
+		namespace Company.Accounting
+		{
+		    /// <summary>
+		    /// Represents an employee
+		    /// </summary>
+		    public class Employee
+		    {
+				/// <summary>
+		        /// Employee's unique Identifier
+		        /// </summary>
+		        public String Id { get; set; }
+		
+		        public String Name { get; set; }
+		    }
+		}
+
+- **C)** Input (JSON document): With collection property.
+
+		{
+			"namespace": "Company.Accounting",
+			"name": "Employee",
+			"description": "Represents an employee",
+			"mutable": true,
+			"properties": [ 
+				{
+					"name": "pastPositions",
+					"type": "string",
+					"cardinality": "many"
+				}
+			]
+		}
+- **C)** Output (C# class file):
+
+		using System;
+		using System.Collections.Generic;
+
+		namespace Company.Accounting
+		{
+		    /// <summary>
+		    /// Represents an employee
+		    /// </summary>
+		    public class Employee
+		    {
+		        public IList<String> PastPositions { get; set; }
+		    }
+		}
+
+
+**Notes:**
+
+- *References:* You could either put the required references with `using` statements or with full-qualified names like `System.Collections.Generic.IList<System.String> PastPositions { get; set; }`.
+- *Constructors:* For immutable properties (all or some), you must provide a constructor suitable to pass all read only properties. Additionally you could provide some other constructors, but all of then must allow to pass all of the read only properties.
+
+### Layout if opt to do the HTML UI ###
+![May The Force Be With You](./code_generator_web.png)
 
 ---
 ## Challenge Two: String Calculator Kata (simplified) ##
@@ -63,8 +206,7 @@ See original kata description here [String Calculator Kata @ osherove.com](http:
 
 ### Before you start: ###
 - Try not to read ahead
-- Do one task at a time. The trick is to learn to work incrementally
-- Make sure you only test for correct inputs. there is no need to test for invalid inputs for this kata
+- Remember to use TDD
 
 ### Description ###
 - *Create a simple String calculator with a method int `Add(string numbers)`*
