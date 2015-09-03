@@ -1,47 +1,51 @@
 # Welcome young padawan! #
 
 
-We'll like for you to demonstrate your skills using the following tools:
+Show your skills using the following tools:
 
 - JavaScript,
-- C# (C Sharp),
-- HTML5,
-- CSS3, and
+- C# (C Sharp), and
 - TDD (any xUnit framework)
 
-Here you have two programming challenges, you need to solve one using C# and the other using JavaScript. For the later (the one solved using JavaScript), you will create a plain old HTML+JavaScript+CSS application to, manually, test the solution. To serve that HTML GUI use anything from just the file system to a simple HTTP server.
+Here you have 3 programming challenges. You need to solve at least one using C# and one using JavaScript, which means, your solutions must contain both languages but you still get to solve all 3 of them. For the JS ones, create a file named `run.js` that can be executed from node.js (version 0.12.4+, you can use `--harmony` if you like) to prove your solution.
 
-For each challenge we will include some additional details for the HTML GUI component.
+Do use TDD for any 2 challenges and include your tests in the final solution. For the JS ones have the tests run by executing `node test.js`
 
-Do use TDD for both challenges and include your tests in the final solution.
+Allocate your solutions under the `dot_net` or `js` folders accordingly and separate each one from the other by its own folder, such as `dot_net/01/`, `dot_net/02/`, `js/03/`
 
 ***How to deliver the solution?***
-Just fork this repo and submit your solution as a pull request.
+
+Just fork this repo and submit your solution as a pull request from your **own personal github account**.
 
 ***Due date*** 
-The last day to submit your solution is ***before Sep. 20, 2015***.
+
+The last day to submit your solution is *** Sep. 30, 2015 ***.
 
 ---
 ## What aspects will we evaluate about your solutions? ##
+
 Be aware, some assessments are subjective, such as our beliefs about good software engineering practices.
 
 - **Your solution must work:** Please do not submit solutions not doing what was asked.
-- **.NET solution:** Must run using only MSBuild tool, use .NET Framework 4 or any higher version
+- **.NET solution:** Must run using only MSBuild tool, use .NET Framework 4.5 or any higher version
   - Put it inside `/dot_net` directory
-- **JavaScript Solution:** Must run using the following command `node run.js`, will use node v12 or higher
+- **JavaScript Solution:** Must run using the following command `node run.js`, will use node v12 or higher. `--harmony` is allowed
   - Put it inside `/js` directory
 - **OOP Principles:** We use Object Oriented technologies, we are looking for people with solid knowledge about OO principles. To name a few, we like you to know about:
   - S.O.L.I.D., 
   - Loosely coupled components, 
   - High cohesive components,
   - Encapsulation, polymorphism, and inheritance
-- **Code Cleanness:** We love clean code. If you only care about *implementing what was asked*, and do not care a bit about *how it was implemented*, may this is not the place for you to work. 
+  
+  JS solutions can be more flexible about OO principles as long as they are intuitive enough.
+  
+- **Code Cleanness:** We love clean code. If you only care about *implementing what was asked*, and do not care a bit about *how it was implemented*, this may not be the place for you to work. 
   - Don't be confused ***we expect your code to work (do what was asked)***, but we will read your source code carefully to see how clean and well organized it is.
 - **Maintainability:** Just to enforce the point, we need people able to produce code that can be read, and changed easily by anyone different from its original author.
 - **Industry conventions**: You must follow all accepted industry conventions for the tool at hand:
   - Naming conventions for the language C# / JavaScript
   - File / class / method / variable declaration and organization
-- **Automated tests:** Both solution must come with a suit of unit tests. Automated tests are not required for the HTML UI
+- **Automated tests:** Both solution must come with a suite of unit tests.
 - **Self-explained:** Your solutions must be organized in such a way that allows us to review it and test it without contacting you. If you need to do any clarification use the `README.md` file.
 
 ## What aspects will we evaluate about YOU? ##
@@ -56,7 +60,6 @@ If your code works, and we like it. We will make an appointment for an interview
 ---
 ## Challenge One: Code Generator ##
 ### Before you start: ###
-- Try not to read ahead
 - Remember to use TDD
 
 ### Description ###
@@ -197,15 +200,14 @@ You need to implement a simple code generator API. The input will be a JSON docu
 - *References:* You could either put the required references with `using` statements or with full-qualified names like `System.Collections.Generic.IList<System.String> PastPositions { get; set; }`.
 - *Constructors:* For immutable properties (all or some), you must provide a constructor suitable to pass all read only properties. Additionally you could provide some other constructors, but all of then must allow to pass all of the read only properties.
 
-### Layout if opt to do the HTML UI ###
-![May The Force Be With You](./code_generator_web.png)
+- **Your solution must take the input JSON from STDIN and output your solution as STDOUT**
+
 
 ---
 ## Challenge Two: String Calculator Kata (simplified) ##
 See original kata description here [String Calculator Kata @ osherove.com](http://osherove.com/tdd-kata-1/ "String Calculator Kata").
 
 ### Before you start: ###
-- Try not to read ahead
 - Remember to use TDD
 
 ### Description ###
@@ -226,12 +228,55 @@ See original kata description here [String Calculator Kata @ osherove.com](http:
   - if there are multiple negatives, show all of them in the exception message
   - message format will be `“negatives not allowed {num1 num2 ...}”`, where `{num1 num2 ...}` represents the list of negatives found
 
-### Layout if opt to do the HTML UI ###
-![May The Force Be With You](./string_calc_web.png)
+- **Your solution must take the input from STDIN and output your solution as STDOUT**
+
+---
+## Challenge Three: Weighting Paths ##
+
+### Description ###
+- Given a set of nodes in a graph and given a set of weighted relations (links) from a node to another node, find the least weighted path from a given node to another
+- Input should be in the following format:
+
+	A B C D E F G H ...
+	
+	A H
+	
+	{empty line}
+	
+	A B 10
+	
+	A C 15
+
+	C H 20
+
+	B H 15
+
+	
+- To better explain the input format:
+  - First is the set of node names separated by one space. Node set should be on the first line
+  - Second is the start node and end node separated by one space.
+  - Third line is always blank
+  - Subsequent lines until EOF represent links and weight between nodes. A B 10 means "moving from A to B weights 10"
+  
+- Output should be in the following format:
+
+	A B H
+	
+	25
+
+	
+- To better explain the output format:
+	- The first line is the least weighted path node by node separated by one space each
+	- The second line is the total weight
+  
+- Your job is to find the least weighted path
+- **Use plain backtracking, do not try to use any well-known optimized algorithm.**
+
+
+- **Your solution must take the input from STDIN and output your solution as STDOUT**
 
 ---
 
-## Both problems are to easy for you? ##
-Try with these ones on the [obi-wan profile](https://github.com/novosit/obi-wan "obi-wan profile").
+
 
 ![May The Force Be With You](./may-the-force-be-with-you.jpg)
