@@ -94,7 +94,7 @@ You need to implement a simple code generator API. The input will be a JSON docu
 					"description": "Employee's unique Identifier"
 				},
 				{
-					"name": "id",
+					"name": "name",
 					"type": "string"
 				}
 			]
@@ -118,12 +118,12 @@ You need to implement a simple code generator API. The input will be a JSON docu
 		        /// </summary>
 		        public String Id
 		        {
-		            get { return name; }
+		            get { return id; }
 		        }
 		
 		        public String Name
 		        {
-		            get { return id; }
+		            get { return name; }
 		        }
 		
 		        public Employee(String id, String name)
