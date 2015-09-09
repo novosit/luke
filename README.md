@@ -76,7 +76,7 @@ You need to implement a simple code generator API. The input will be a JSON docu
   - `"name"`: Property name, note that if you have to declare any hidden data element in order to ensure the proper mutability strategy that is up to you. The name represents the one used to declare properties in the public interface of the class, such as: `public int Age { get; set; }`, for `"age"`.
   - `"type"`: one of `"integer"`, `"float"`, `"double"`, `"string"`, `"datetime"`, `"boolean"`.
   - `"visibility"`: valid values are `"public"`, `"protected"`, `"internal"`, and `"private"`. The default is `"public"`.
-  - `"mutability"`: Only allowed if the the container (type) is mutable (`"mutable": true`). Used to allow immutable properties within mutable classes. A `"mutable": true` property within a `"mutable": true` type has no effect, the result will be the same as if the mutable attribute was not specified for the property.
+  - `"mutable"`: Only allowed if the the container (type) is mutable (`"mutable": true`). Used to allow immutable properties within mutable classes. A `"mutable": true` property within a `"mutable": true` type has no effect, the result will be the same as if the mutable attribute was not specified for the property.
   - `"description"`: Description is an optional string used to generate XML-Doc for the property.
   - `"cardinality"`: Used to define collection-type properties. Defines a range of occurrences for the given type. For simplicity we will only manage two kind of cardinality: `"one"` (default), and `"many"` (unbounded collection). Translate `"many"` as `System.Collections.Generic.IList<T>`.
 
