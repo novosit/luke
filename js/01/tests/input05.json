@@ -1,0 +1,16 @@
+{
+	"name": "document",
+	"namespace":"CodeGenerator",
+	"description": "Represents a document within the EDMS repository",
+	"mutable":true,
+	"properties": [
+		{
+			"name": "handle",
+			"type":"integer"
+		},
+		{
+			"name": "name",
+			"type": "string"
+		}
+	]
+}

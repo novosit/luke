@@ -1,0 +1,20 @@
+{
+	"name": "document",
+	"namespace":"CodeGenerator",
+	"description": "Represents a document within the EDMS repository",
+	"properties": [
+		{
+			"name": "handle",
+			"type":"string"
+		},
+		{
+			"name": "name",
+			"type": "string"
+		},
+		{
+			"name": "dates",
+			"type": "DateTime",
+			"cardinality":"many"
+		}
+	]
+}

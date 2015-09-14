@@ -1,0 +1,7 @@
+A B C D E F G H
+B H
+
+A B 10
+A C 15
+C H 20
+B H 15
