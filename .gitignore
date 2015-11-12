@@ -1,6 +1,9 @@
-dot_net/CodeGenerator.Test/bin
-dot_net/CodeGenerator/bin
-dot_net/WeightingPaths/obj
-dot_net/WeightingPaths/bin
-dot_net/CodeGenerator/obj
-dot_net/WeightingPaths.Test/obj
+dot_net/01/CodeGenerator.Test/bin
+dot_net/01/CodeGenerator/bin
+dot_net/01/CodeGenerator/obj
+dot_net/02/WeightingPaths/obj
+dot_net/02/WeightingPaths/bin
+dot_net/02/WeightingPaths.Test/obj
+dot_net/01/packages/
+dot_net/02/packages/
+dot_net/02/WeightingPaths.Test/obj/Debug

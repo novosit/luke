@@ -11,3 +11,13 @@ E:\projects\novosit\luke\dot_net\WeightingPaths.Test\obj\Debug\WeightingPaths.Te
 C:\projects\luke\luke-1\dot_net\02\WeightingPaths.Test\bin\Debug\WeightingPaths.Test.exe.config
 C:\projects\luke\luke-1\dot_net\02\WeightingPaths.Test\obj\Debug\WeightingPaths.Test.exe
 C:\projects\luke\luke-1\dot_net\02\WeightingPaths.Test\obj\Debug\WeightingPaths.Test.pdb
+E:\borrar\luke_build_test\luke-1\dot_net\02\WeightingPaths.Test\bin\Debug\WeightingPaths.Test.exe.config
+E:\borrar\luke_build_test\luke-1\dot_net\02\WeightingPaths.Test\bin\Debug\WeightingPaths.Test.exe
+E:\borrar\luke_build_test\luke-1\dot_net\02\WeightingPaths.Test\bin\Debug\WeightingPaths.Test.pdb
+E:\borrar\luke_build_test\luke-1\dot_net\02\WeightingPaths.Test\bin\Debug\nunit.framework.dll
+E:\borrar\luke_build_test\luke-1\dot_net\02\WeightingPaths.Test\bin\Debug\WeightingPaths.dll
+E:\borrar\luke_build_test\luke-1\dot_net\02\WeightingPaths.Test\bin\Debug\WeightingPaths.pdb
+E:\borrar\luke_build_test\luke-1\dot_net\02\WeightingPaths.Test\bin\Debug\nunit.framework.xml
+E:\borrar\luke_build_test\luke-1\dot_net\02\WeightingPaths.Test\obj\Debug\WeightingPaths.Test.csprojResolveAssemblyReference.cache
+E:\borrar\luke_build_test\luke-1\dot_net\02\WeightingPaths.Test\obj\Debug\WeightingPaths.Test.exe
+E:\borrar\luke_build_test\luke-1\dot_net\02\WeightingPaths.Test\obj\Debug\WeightingPaths.Test.pdb

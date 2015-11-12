@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CodeGenerator;
 
 namespace CodeGenerator.Test
 {
@@ -10,30 +11,14 @@ namespace CodeGenerator.Test
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Insert json input: ");
+            var json = Console.ReadLine();
+
             Parser parser = new Parser();
-            var json = @"
-                        {
-    ""namespace"": ""Company.Accounting"",
-    ""name"": ""Employee"",
-    ""description"": ""Represents an employee"",	
-    ""properties"": [    
-        {
-            ""name"": ""id"",
-            ""type"": ""string""
-        },
-		{
-            ""name"": ""name"",
-            ""type"": ""string""
-        },
-		{
-            ""name"": ""pastPositions"",
-            ""type"": ""string"",
-			""cardinality"": ""many""
-        }
-    ]
-}";
             var output = parser.GenerateClass(json);
 
+
+            Console.WriteLine("\nThe result code was:\n\n ");
             Console.WriteLine(output);
 
             Console.ReadLine();

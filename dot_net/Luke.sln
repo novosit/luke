@@ -1,24 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGenerator", "CodeGenerator\CodeGenerator.csproj", "{969D67F0-2D49-4AA7-808A-33DE28676CC9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{9C4A26BF-6494-4DAE-85EB-29ED77C60A61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGenerator.Test", "CodeGenerator.Test\CodeGenerator.Test.csproj", "{DE5E9217-A1A7-491F-B675-5F0A1C23C63F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02", "02", "{6EBEE801-1FD0-4F25-9620-79C633F91D67}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DBBECE4D-5657-4300-80DB-1D01D4A61FC7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGenerator", "01\CodeGenerator\CodeGenerator.csproj", "{969D67F0-2D49-4AA7-808A-33DE28676CC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGenerator.Test", "01\CodeGenerator.Test\CodeGenerator.Test.csproj", "{DE5E9217-A1A7-491F-B675-5F0A1C23C63F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{398A71D9-5260-4228-8AA0-BAA05310F439}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightingPaths", "WeightingPaths\WeightingPaths.csproj", "{218CCD98-DEC9-4727-B844-72BD7E831E4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightingPaths", "02\WeightingPaths\WeightingPaths.csproj", "{218CCD98-DEC9-4727-B844-72BD7E831E4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightingPaths.Test", "WeightingPaths.Test\WeightingPaths.Test.csproj", "{EC85C391-E4BE-476C-8EAF-E1FB19FF1F86}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{9C4A26BF-6494-4DAE-85EB-29ED77C60A61}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02", "02", "{6EBEE801-1FD0-4F25-9620-79C633F91D67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightingPaths.Test", "02\WeightingPaths.Test\WeightingPaths.Test.csproj", "{EC85C391-E4BE-476C-8EAF-E1FB19FF1F86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

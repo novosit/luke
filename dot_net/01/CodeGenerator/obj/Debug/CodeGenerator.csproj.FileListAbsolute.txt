@@ -13,3 +13,11 @@ E:\projects\novosit\luke\dot_net\CodeGenerator\bin\Debug\Newtonsoft.Json.xml
 E:\projects\novosit\luke\dot_net\CodeGenerator\obj\Debug\CodeGenerator.csprojResolveAssemblyReference.cache
 E:\projects\novosit\luke\dot_net\CodeGenerator\obj\Debug\CodeGenerator.dll
 E:\projects\novosit\luke\dot_net\CodeGenerator\obj\Debug\CodeGenerator.pdb
+E:\borrar\luke_build_test\luke-1\dot_net\01\CodeGenerator\obj\Debug\CodeGenerator.csprojResolveAssemblyReference.cache
+E:\borrar\luke_build_test\luke-1\dot_net\01\CodeGenerator\bin\Debug\CodeGenerator.dll.config
+E:\borrar\luke_build_test\luke-1\dot_net\01\CodeGenerator\bin\Debug\CodeGenerator.dll
+E:\borrar\luke_build_test\luke-1\dot_net\01\CodeGenerator\bin\Debug\CodeGenerator.pdb
+E:\borrar\luke_build_test\luke-1\dot_net\01\CodeGenerator\bin\Debug\Newtonsoft.Json.dll
+E:\borrar\luke_build_test\luke-1\dot_net\01\CodeGenerator\bin\Debug\Newtonsoft.Json.xml
+E:\borrar\luke_build_test\luke-1\dot_net\01\CodeGenerator\obj\Debug\CodeGenerator.dll
+E:\borrar\luke_build_test\luke-1\dot_net\01\CodeGenerator\obj\Debug\CodeGenerator.pdb
