@@ -10,3 +10,8 @@ E:\borrar\luke_build_test\luke-1\dot_net\02\WeightingPaths\bin\Debug\WeightingPa
 E:\borrar\luke_build_test\luke-1\dot_net\02\WeightingPaths\obj\Debug\WeightingPaths.csprojResolveAssemblyReference.cache
 E:\borrar\luke_build_test\luke-1\dot_net\02\WeightingPaths\obj\Debug\WeightingPaths.dll
 E:\borrar\luke_build_test\luke-1\dot_net\02\WeightingPaths\obj\Debug\WeightingPaths.pdb
+E:\borrar\luke_build_test2\luke-1\dot_net\02\WeightingPaths\bin\Debug\WeightingPaths.dll.config
+E:\borrar\luke_build_test2\luke-1\dot_net\02\WeightingPaths\bin\Debug\WeightingPaths.dll
+E:\borrar\luke_build_test2\luke-1\dot_net\02\WeightingPaths\bin\Debug\WeightingPaths.pdb
+E:\borrar\luke_build_test2\luke-1\dot_net\02\WeightingPaths\obj\Debug\WeightingPaths.dll
+E:\borrar\luke_build_test2\luke-1\dot_net\02\WeightingPaths\obj\Debug\WeightingPaths.pdb

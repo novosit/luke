@@ -1,9 +1,6 @@
-dot_net/01/CodeGenerator.Test/bin
-dot_net/01/CodeGenerator/bin
-dot_net/01/CodeGenerator/obj
-dot_net/02/WeightingPaths/obj
-dot_net/02/WeightingPaths/bin
-dot_net/02/WeightingPaths.Test/obj
-dot_net/01/packages/
-dot_net/02/packages/
-dot_net/02/WeightingPaths.Test/obj/Debug
+dot_net/01/CodeGenerator.Test/obj/
+dot_net/01/CodeGenerator/obj/
+dot_net/01/packages/Newtonsoft.Json.7.0.1/
+dot_net/01/packages/NUnit.2.6.4/
+dot_net/02/packages/NUnit.2.6.4/
+dot_net/02/WeightingPaths.Test/obj/
