@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EC85C391-E4BE-476C-8EAF-E1FB19FF1F86}</ProjectGuid>
+    <ProjectGuid>{6EB9DB43-61A9-4FD5-BB08-762812C4232E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WeightingPaths.Test</RootNamespace>
@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WeightingPaths\WeightingPaths.csproj">
-      <Project>{218ccd98-dec9-4727-b844-72bd7e831e4e}</Project>
+      <Project>{ea04c3f8-2678-479c-b697-21304cc4cbda}</Project>
       <Name>WeightingPaths</Name>
     </ProjectReference>
   </ItemGroup>

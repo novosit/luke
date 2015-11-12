@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DE5E9217-A1A7-491F-B675-5F0A1C23C63F}</ProjectGuid>
+    <ProjectGuid>{4BDCDCCD-6A8F-479B-B8C2-DD606EFF783A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CodeGenerator.Test</RootNamespace>
@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -47,58 +47,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="examples\outputs\SimpleClassWithoutPorperty.cs">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="examples\outputs\SimpleClassWithOnePorperty.cs">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="examples\outputs\NonMutableClassWithOnePorperty.cs">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="examples\outputs\SimpleClassWithCollectionPorperty.cs">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="examples\outputs\NonMutableClassWithCollectionPorperty.cs">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="examples\outputs\SimpleClassWithNonMutablePorperties.cs">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Compile Include="ParserTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="examples\inputs\SimpleClassWithNonMutablePorperties.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="examples\inputs\NonMutableClassWithCollectionPorperty.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="examples\inputs\SimpleClassWithCollectionPorperty.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="examples\inputs\NonMutableClassWithOnePorperty.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="examples\inputs\SimpleClassWithOnePorperty.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="examples\inputs\SimpleClassWithoutPorperty.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\CodeGenerator\CodeGenerator.csproj">
-      <Project>{969d67f0-2d49-4aa7-808a-33de28676cc9}</Project>
+      <Project>{2ade7555-ce5e-4baf-87b7-53069d16705c}</Project>
       <Name>CodeGenerator</Name>
     </ProjectReference>
   </ItemGroup>

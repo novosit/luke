@@ -1,6 +1,12 @@
-dot_net/01/CodeGenerator.Test/obj/
-dot_net/01/CodeGenerator/obj/
-dot_net/01/packages/Newtonsoft.Json.7.0.1/
-dot_net/01/packages/NUnit.2.6.4/
-dot_net/02/packages/NUnit.2.6.4/
-dot_net/02/WeightingPaths.Test/obj/
+# Ignore NuGet Packages
+*.nupkg
+# Ignore the packages folder
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+
+# Ignore the bin and obj folders
+bin/
+obj/
