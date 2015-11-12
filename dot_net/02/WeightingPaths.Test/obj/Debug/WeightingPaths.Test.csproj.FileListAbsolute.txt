@@ -1,0 +1,13 @@
+E:\projects\novosit\luke\dot_net\WeightingPaths.Test\bin\Debug\WeightingPaths.Test.exe.config
+E:\projects\novosit\luke\dot_net\WeightingPaths.Test\bin\Debug\WeightingPaths.Test.exe
+E:\projects\novosit\luke\dot_net\WeightingPaths.Test\bin\Debug\WeightingPaths.Test.pdb
+E:\projects\novosit\luke\dot_net\WeightingPaths.Test\bin\Debug\nunit.framework.dll
+E:\projects\novosit\luke\dot_net\WeightingPaths.Test\bin\Debug\WeightingPaths.dll
+E:\projects\novosit\luke\dot_net\WeightingPaths.Test\bin\Debug\WeightingPaths.pdb
+E:\projects\novosit\luke\dot_net\WeightingPaths.Test\bin\Debug\nunit.framework.xml
+E:\projects\novosit\luke\dot_net\WeightingPaths.Test\obj\Debug\WeightingPaths.Test.csprojResolveAssemblyReference.cache
+E:\projects\novosit\luke\dot_net\WeightingPaths.Test\obj\Debug\WeightingPaths.Test.exe
+E:\projects\novosit\luke\dot_net\WeightingPaths.Test\obj\Debug\WeightingPaths.Test.pdb
+C:\projects\luke\luke-1\dot_net\02\WeightingPaths.Test\bin\Debug\WeightingPaths.Test.exe.config
+C:\projects\luke\luke-1\dot_net\02\WeightingPaths.Test\obj\Debug\WeightingPaths.Test.exe
+C:\projects\luke\luke-1\dot_net\02\WeightingPaths.Test\obj\Debug\WeightingPaths.Test.pdb

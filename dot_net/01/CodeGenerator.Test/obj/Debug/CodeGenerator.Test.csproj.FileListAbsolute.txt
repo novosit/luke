@@ -46,3 +46,6 @@ E:\projects\novosit\luke\dot_net\CodeGenerator.Test\bin\Debug\Newtonsoft.Json.xm
 E:\projects\novosit\luke\dot_net\CodeGenerator.Test\obj\Debug\CodeGenerator.Test.csprojResolveAssemblyReference.cache
 E:\projects\novosit\luke\dot_net\CodeGenerator.Test\obj\Debug\CodeGenerator.Test.exe
 E:\projects\novosit\luke\dot_net\CodeGenerator.Test\obj\Debug\CodeGenerator.Test.pdb
+C:\projects\luke\luke-1\dot_net\01\CodeGenerator.Test\bin\Debug\CodeGenerator.Test.exe.config
+C:\projects\luke\luke-1\dot_net\01\CodeGenerator.Test\obj\Debug\CodeGenerator.Test.exe
+C:\projects\luke\luke-1\dot_net\01\CodeGenerator.Test\obj\Debug\CodeGenerator.Test.pdb

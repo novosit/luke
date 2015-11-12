@@ -1,0 +1,15 @@
+e:\projects\personal\Luke\CodeGenerator\bin\Debug\CodeGenerator.pdb
+e:\projects\personal\Luke\CodeGenerator\bin\Debug\Newtonsoft.Json.dll
+e:\projects\personal\Luke\CodeGenerator\bin\Debug\Newtonsoft.Json.xml
+e:\projects\personal\Luke\CodeGenerator\obj\Debug\CodeGenerator.pdb
+e:\projects\personal\Luke\CodeGenerator\bin\Debug\CodeGenerator.dll.config
+e:\projects\personal\Luke\CodeGenerator\bin\Debug\CodeGenerator.dll
+e:\projects\personal\Luke\CodeGenerator\obj\Debug\CodeGenerator.dll
+E:\projects\novosit\luke\dot_net\CodeGenerator\bin\Debug\CodeGenerator.dll.config
+E:\projects\novosit\luke\dot_net\CodeGenerator\bin\Debug\CodeGenerator.dll
+E:\projects\novosit\luke\dot_net\CodeGenerator\bin\Debug\CodeGenerator.pdb
+E:\projects\novosit\luke\dot_net\CodeGenerator\bin\Debug\Newtonsoft.Json.dll
+E:\projects\novosit\luke\dot_net\CodeGenerator\bin\Debug\Newtonsoft.Json.xml
+E:\projects\novosit\luke\dot_net\CodeGenerator\obj\Debug\CodeGenerator.csprojResolveAssemblyReference.cache
+E:\projects\novosit\luke\dot_net\CodeGenerator\obj\Debug\CodeGenerator.dll
+E:\projects\novosit\luke\dot_net\CodeGenerator\obj\Debug\CodeGenerator.pdb

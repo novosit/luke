@@ -1,0 +1,11 @@
+﻿{
+    "namespace": "Company.Accounting",
+    "name": "Employee",
+    "description": "Represents an employee",	
+    "properties": [    
+        {
+            "name": "name",
+            "type": "string"
+        }
+    ]
+}

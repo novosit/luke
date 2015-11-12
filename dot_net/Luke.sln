@@ -16,6 +16,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightingPaths", "Weighting
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightingPaths.Test", "WeightingPaths.Test\WeightingPaths.Test.csproj", "{EC85C391-E4BE-476C-8EAF-E1FB19FF1F86}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{9C4A26BF-6494-4DAE-85EB-29ED77C60A61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02", "02", "{6EBEE801-1FD0-4F25-9620-79C633F91D67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,5 +45,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{969D67F0-2D49-4AA7-808A-33DE28676CC9} = {9C4A26BF-6494-4DAE-85EB-29ED77C60A61}
+		{DE5E9217-A1A7-491F-B675-5F0A1C23C63F} = {9C4A26BF-6494-4DAE-85EB-29ED77C60A61}
+		{218CCD98-DEC9-4727-B844-72BD7E831E4E} = {6EBEE801-1FD0-4F25-9620-79C633F91D67}
+		{EC85C391-E4BE-476C-8EAF-E1FB19FF1F86} = {6EBEE801-1FD0-4F25-9620-79C633F91D67}
 	EndGlobalSection
 EndGlobal
