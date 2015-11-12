@@ -1,0 +1,6 @@
+E:\projects\novosit\luke\dot_net\WeightingPaths\bin\Debug\WeightingPaths.dll.config
+E:\projects\novosit\luke\dot_net\WeightingPaths\bin\Debug\WeightingPaths.dll
+E:\projects\novosit\luke\dot_net\WeightingPaths\bin\Debug\WeightingPaths.pdb
+E:\projects\novosit\luke\dot_net\WeightingPaths\obj\Debug\WeightingPaths.dll
+E:\projects\novosit\luke\dot_net\WeightingPaths\obj\Debug\WeightingPaths.pdb
+E:\projects\novosit\luke\dot_net\WeightingPaths\obj\Debug\WeightingPaths.csprojResolveAssemblyReference.cache
