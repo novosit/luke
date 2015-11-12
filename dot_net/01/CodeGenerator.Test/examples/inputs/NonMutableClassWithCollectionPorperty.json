@@ -1,0 +1,20 @@
+﻿{
+    "namespace": "Company.Accounting",
+    "name": "Employee",
+    "description": "Represents an employee",	
+    "properties": [    
+        {
+            "name": "id",
+            "type": "string"
+        },
+		{
+            "name": "name",
+            "type": "string"
+        },
+		{
+            "name": "pastPositions",
+            "type": "string",
+			"cardinality": "many"
+        }
+    ]
+}
