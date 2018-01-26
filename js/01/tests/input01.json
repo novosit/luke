@@ -1,0 +1,16 @@
+{
+    "namespace": "Company.Accounting",
+    "name": "Employee",
+    "description": "Represents an employee",
+    "properties": [
+        {
+            "name": "id",
+            "type": "string",
+            "description": "Employee's unique Identifier"
+        },
+        {
+            "name": "name",
+            "type": "string"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Graph.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Ronald Rey",
+    "email": "reyronald@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.3.0"
+  }
+}

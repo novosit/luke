@@ -1,0 +1,40 @@
+{
+	"name": "person",
+	"namespace":"CodeGenerator",
+	"visibility":"internal",
+	"description": "This class definition is not supposed to make sense, just a mashup of all possible values in the input.",
+	"mutable":true,
+	"properties": [
+		{
+			"name": "id",
+			"type":"integer",
+			"visibility":"protected"
+		},
+		{
+			"name": "height",
+			"type": "float",
+			"visibility":"private"
+		},
+		{
+			"name": "score",
+			"type": "double",
+			"mutability":true
+		},
+		{
+			"name": "name",
+			"type": "string",
+			"visibility":"internal",
+			"mutability":false
+		},
+		{
+			"name": "dates",
+			"type": "datetime",
+			"cardinality":"many"
+		},
+		{
+			"name": "active",
+			"type": "boolean",
+			"cardinality":"one"
+		}
+	]
+}
